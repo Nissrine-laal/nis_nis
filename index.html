@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Grand Jeu D2</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <p style="font-size: 100px; height: 80px;">  Entrez la réponse ici : </p>
+        <input type="text" id="code" onkeyup="answers();" placeholder="Réponse" style="font-size: 100px; width: 900px; height: 250px; margin-top: 150px;">
+    </body>
+    <script>
+        function answers(){
+        var code_entre= document.getElementById('code').value.toLowerCase();
+            if(code_entre=="chienne"){
+                window.location.href = "https://www.google.com/maps/d/u/0/viewer?mid=1o5EXJkXQ2KOm5IqjIcFUgUrUVFCOVL1n&ll=48.389291141044154%2C-4.48660834972229&z=17";
+            }
+            else if(code_entre=="pasteque"){
+                window.location.href = "https://www.google.com/maps/d/u/0/viewer?mid=1o5EXJkXQ2KOm5IqjIcFUgUrUVFCOVL1n&ll=48.387575021958625%2C-4.491239999999999&z=17";
+            }
+            else if(code_entre=="guitare"){
+                window.location.href = "http://www.w3schools.com";
+            }
+            else if(code_entre=="stylo"){
+                window.location.href = "http://www.w3schools.com";
+            }
+            else if(code_entre=="pain"){
+                window.location.href = "http://www.w3schools.com";
+            }
+            else if(code_entre=="gant"){
+                window.location.href = "http://www.w3schools.com";
+            }
+            else if(code_entre=="courant"){
+                window.location.href = "http://www.w3schools.com";
+            }
+        }
+    </script>
+</html>
